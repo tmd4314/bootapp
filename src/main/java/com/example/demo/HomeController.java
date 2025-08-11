@@ -9,6 +9,6 @@ public class HomeController {
 	@GetMapping("/")
 	@ResponseBody
 	public String main() {
-		return "hello springboot";
+		return "hello springboot!! docker build";
 	}
 }
